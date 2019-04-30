@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表格制作及属性</title>
+</head>
+<body>
+	<table  border="1" cellspacing="0"  align="center" >
+	<caption>前端工程师平均工资</caption>
+		<thead>
+		<tr bgcolor="blue">
+		    <th rowspan="2">城市</th>
+			<th colspan="2">2014年</th>
+			<!-- <th>2014年</th> -->
+			<th rowspan="2">2015年</th>
+			<th rowspan="2">2016年</th>
+		</tr>
+		<tr bgcolor="blue">
+			<!-- <th>城市</th> -->
+			<th>上半年</th>
+			<th>下半年</th>
+			<!-- <th>2015年</th>
+			<th>2016年</th> -->
+		</tr>
+		</thead>
+
+		<tbody align="center" valign="middle">
+		<tr>
+			<td bgcolor="blue">北京</td>
+			<td>8000</td>
+			<td>9000</td>
+			<td>10000</td>
+			<td>12000</td>
+		</tr>
+		<tr>
+			<td bgcolor="blue">上海</td>
+			<td>6000</td>
+			<td>7000</td>
+			<td>8000</td>
+			<td>10000</td>
+		</tr>
+		</tbody>
+	<tfoot>
+		<tr align="center" valign="middle">
+			<td  bgcolor="blue">
+				<table  cellspacing="0" border="1">
+						<td>合计</td>
+						<td>即总计</td>
+					</tr>
+				</table>
+			</td>
+			<td>14000</td>
+			<td>16000</td>
+			<td>18000</td>
+			<td>22000</td>
+		</tr>
+ 	</tfoot>
+	</table>
+</body>
+</html>
